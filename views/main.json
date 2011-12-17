@@ -1,0 +1,43 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "title",
+			"control": "TextView",
+			"label": "Hallo Jakarta!",
+			"style": {
+				"color": "black",
+				"width": 200,
+				"height": "fill-parent",
+				"align": "center",
+				"valign": "middle"
+			}
+		},
+        {
+            "name": "nama",
+            "control": "InputBox",
+            "style": {
+                "background-color": "#aabbee",
+                "width": "fill-parent",
+                "height": 40
+            }
+        },
+        {
+            "name": "logo",
+            "control": "ImageView"
+        },
+        {
+            "name": "button",
+            "control": "TextView",
+            "label": "Click Me!",
+            "style": {
+                "color": "white",
+                "background-color": "blue"
+            }
+        }
+	]
+}
